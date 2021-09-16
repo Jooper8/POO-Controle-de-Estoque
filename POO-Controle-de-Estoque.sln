@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO-Controle-de-Estoque", "POO-Controle-de-Estoque\POO-Controle-de-Estoque.csproj", "{410C992F-CE40-494F-9314-EF0D7A8091F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410C992F-CE40-494F-9314-EF0D7A8091F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410C992F-CE40-494F-9314-EF0D7A8091F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410C992F-CE40-494F-9314-EF0D7A8091F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410C992F-CE40-494F-9314-EF0D7A8091F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C42EF4-6340-429A-87A3-33898EF55E1A}
+	EndGlobalSection
+EndGlobal
