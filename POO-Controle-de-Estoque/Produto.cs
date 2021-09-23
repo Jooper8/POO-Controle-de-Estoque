@@ -11,10 +11,14 @@ namespace POO_Controle_de_Estoque
 {
     class Produto
     {
-        //Instanciação das váriaveis utilizadas no construtor.
-        public string Nome;
-        public double Preco;
-        public int Quant;
+        //Instanciação das váriaveis utilizadas no construtor, sendo que Preco e Quant utilizam Auto Properties.
+        private string Nome;
+        private double Preco { get; set; }
+        private int Quant{ get; set;}
+
+        //Instanciação do construtor vazio Produto.
+        public Produto()
+        { }
 
         //Instanciação do construtor Produto, que converterá os dados inseridos pelo usuário e guardará numa variável.
         public Produto(string nome, double preco, int quant)
@@ -24,9 +28,21 @@ namespace POO_Controle_de_Estoque
             Quant = quant;
         }
 
-        //Instanciação do construtor vazio Produto.
-        public Produto()
-        { }
+        //Instanciação das propriedades do Nome, checando se o valor não é nulo.
+        public string GetSetNome
+        {
+            get
+            {
+                return Nome;
+            }
+            set
+            {
+                if (value != null && value.Length > 1)
+                {
+                    Nome = value;
+                }
+            }
+        }
 
         //Função para determinar o valor guardado em estoque.
         public double ValorEstoque()
